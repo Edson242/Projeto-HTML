@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+h1#nome {
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+}
+
+div#div1 {
+    color: #022859;
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+}
