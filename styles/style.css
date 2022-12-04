@@ -1,13 +1,122 @@
 @charset "UTF-8";
 
-h1#nome {
-    font-family: 'Oswald', sans-serif;
+
+* {
     margin: 0px;
+    padding: 0px;
 }
 
-div#div1 {
-    color: #022859;
-    width: 100px;
-    height: 100px;
-    margin: 0px;
+:root {
+    --fonte1 : 'Oswald', sans-serif;
+    --fonte2: 'Bitter', serif;
+    --cor1 : #022859;
+    --cor2 : #035AA6;
+    --cor3 : #0487D9;
+    --cor4 : #05AFF2;
+    --cor5 : #1BDDF2;
+}
+
+
+header > section >h1 {
+    text-align: center;
+    padding: 30px;
+    font-family: var(--fonte2);
+    font-weight: bold;
+    font-style: normal;
+    font-size: 45px;
+    background-image: url('/imagens/fundo01.jpg');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+header > nav > ul > li{
+    display: inline-block;
+    margin-left: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+header > nav > ul {
+    box-shadow: 1px 1px 2px 1px black;
+    background-color: var(--cor2);
+}
+
+header > nav > ul {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+} 
+
+a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
+}
+
+body {
+    background-color: var(--cor4);
+}
+
+main > section > h2 {
+    text-align: left;
+    font-family: var(--fonte2);
+    font-size: 19px;
+    font-style: italic;
+    padding: 20px;
+    margin: 60px 50px;
+}
+
+
+main > section > h3 {
+    text-align: left;
+    font-family: var(--fonte2);
+    font-size: 22px;
+    font-style: italic;
+    padding: 8px;
+    margin-top: 29px;
+    margin-left: 20px;
+    margin-bottom: -22px;
+}
+
+
+main > section > h4 {
+    text-align: left;
+    font-family: var(--fonte2);
+    font-size: 22px;
+    font-style: italic;
+    padding: 5px;
+    margin-top: 37px;
+    margin-left: 20px;
+    margin-bottom: -36px;
+}
+
+.link {
+    list-style-type: none;
+    font-size: 20px;
+    margin: 30px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+}
+
+.link a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
+}
+
+footer > p {
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: var(--cor1);
+    height: 28px;
+    padding: 1px;
+    font-family: var(--fonte1);
+    font-size: 17px;
 }
