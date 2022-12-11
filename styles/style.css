@@ -111,11 +111,11 @@ main > section > h4 {
     color: var(--cor1);
 }
 
+
 footer > p {
     text-align: center;
-    margin-bottom: 10px;
     background-color: var(--cor1);
-    height: 28px;
+    height: 25px;
     padding: 1px;
     font-family: var(--fonte1);
     font-size: 17px;
