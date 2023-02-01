@@ -15,3 +15,54 @@
     --cor4 : #05AFF2;
     --cor5 : #1BDDF2;
 }
+
+body {
+    background-color: var(--cor4);
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+ul {
+    background-color: #035AA6;
+}
+
+header > nav > ul > li {
+    display: inline-block;
+    font-family: var(--fonte2);
+    font-weight: bolder;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+main > h2 {
+    font-family: var(--fonte2);
+    margin: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+li:hover {
+    text-decoration: underline var(--cor1);
+}
+
+#titulo {
+    font-family: var(--fonte2);
+    text-align: center;
+    margin: 15px 0px 25px 0px;
+}
+
+
+#pé {
+    font-family: var(--fonte1);
+    font-size: 23px;
+    font-weight: bolder;
+    color: var(--cor4);
+    background-color: var(--cor1);
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+}
