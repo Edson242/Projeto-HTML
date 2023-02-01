@@ -56,7 +56,7 @@ li:hover {
 }
 
 
-#pé {
+footer #pé {
     font-family: var(--fonte1);
     font-size: 23px;
     font-weight: bolder;
